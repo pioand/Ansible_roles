@@ -1,6 +1,7 @@
 - name: install_packages
-  apt:
+  package:
     name:
       - htop
       - python3-pip
       - mc
+    state: present
